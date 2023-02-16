@@ -9,6 +9,7 @@ import com.company.model.Employee;
 import com.company.repository.employeeRepo;
 import com.company.service.employeeService;
 
+@Service
 public class employeeServiceImpl implements employeeService {
 
 	@Autowired
